@@ -139,9 +139,15 @@ a{
 /* showcase */
 
 #showcase{
-  background: #333 URL(../img/showcase.jpg) no-repeat center center/cover;
+  /* background: #333 URL(../img/showcase.jpg) no-repeat center center/cover; */
   height: 100vh;
   color: #fff;
+}
+
+#my-vid{
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
 
 #showcase .content-showcase{
@@ -156,6 +162,7 @@ a{
   /* overlay */
   position: absolute;
   width: 100%;
+  height: 100%;
   top: 65px;
   left: 0px;
   bottom: 0;
